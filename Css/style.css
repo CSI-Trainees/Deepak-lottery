@@ -65,23 +65,210 @@ main{
 /*************************ABOUT THE GAME***********************/
 .maincontent{
 	width: 100%;
-	background-color: #283747;
+	background-color: #212F3C;
 }
-.maincontent .section1{
-	width: 80%;
-	height: 500px;
-	margin-left: 150px;
+.aboutlogo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.maincontent .section1 .sectio1left{
+.maincontent h1{
+	margin-top: 10px;
+	font-weight: bold;
+	color: #AF601A;
+	text-align: center;
+}
+.maincontent .about{
+	margin-left: 350px;
+	margin-top: 30px;
+	width: 800px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	color: white;
+}
+.sections{
+	margin-top: 30px;
+	width: 100%;
+	position: relative;
+	bottom: 50px;
+}
+
+/********************Section one**********************/
+
+
+.sections .secone{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .secone .seconecontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
+	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
+}
+.sections .secone .seconecontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.sections .secone .seconecontent p{
+	color: white;
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+}
+
+.sections .secone .seconeimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+	z-index: 11;
+	background-image: url(../img/abou123.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/****************section two****************/
+
+.sections .sectwo{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .sectwo .sectwocontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
+	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
+}
+.sections .sectwo .sectwocontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.sections .sectwo .sectwocontent p{
+	color: white;
+	margin-top: 45px;
+	font-size: 22px;
+	word-spacing: 2px;
+	text-align: center;
+}
+.sections .sectwo .sectwoimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+	background-image: url(../img/saku.png);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/******************************section three*****************************/
+
+.sections .secthree{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .secthree .secthreecontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
+	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
 
 }
-.maincontent .section1 .sectio1right{
-	width: 501px;
-	height: 500px;
+.sections .secthree .secthreecontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.sections .secthree .secthreecontent p{
+	color: white;
+	margin-top: 45px;
+	font-size: 22px;
+	word-spacing: 2px;
+	text-align: center;
+}
+.sections .secthree .secthreeimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+	z-index: 11;
+	background-image: url(../img/about123.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ 
+ /***************************section four*********************************/
+
+ .sections .secfour{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .secfour .secfourcontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
 	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
+}
+.sections .secfour .secfourcontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.sections .secfour .secfourcontent p{
+	color: white;
+	margin-top: 45px;
+	font-size: 22px;
+	word-spacing: 2px;
+	text-align: center;
+}
+.sections .secfour .secfourimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+    z-index: 11;
+    background-image: url(../img/lottery-09.png);
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
