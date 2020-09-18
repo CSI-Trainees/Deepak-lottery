@@ -5,6 +5,9 @@
 	<title>LOTTO_INDIA_247</title>
 	<link rel="stylesheet" type="text/css" href="Css/style.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -75,10 +78,83 @@
 		    </div>
 		</div>
 		<div class="maingame">
-			<div class=""></div>
-			
+			<div class="maingametwo">
+				<h1 class="animated infinite heartBeat delay-1s">LET's PLAY !</h1>
+				<section class="gameone">
+					<div class="gameroundone"></div>
+						<h2>ROUND 1</h2>
+						<p id="note">In this round you have to Press the Get it button to get your lottery number</p>
+						<p id="number"></p>
+						<button id="Enterbtn" onclick="random();" abled="abled">Get it !</button>
+					</div>
+				</section>
+				<section class="gametwo">
+					<div class="gameroundtwo">
+						<h2 class="h2">ROUND 2</h2>
+						<p id="notetwo">In this round you have to Enter the lottery number that you have got and then click on the button to check your luck.</p>
+						<div class="submit">
+							<div class="data">
+								<h2>Lottery Number</h2>
+								<input type="text" id="text" >
+								<button class="submitvalue">SUBMIT</button>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
 		</div>
-	</div>
 
+		<footer>
+			<div class="footer">
+				<section class="footerone">
+					<h3>MENU</h3>
+					<div class="one">
+						<div>HOME</div>
+						<div>LOTTERIES</div>
+						<div>SUBSCRIPTION</div>
+						<div>SCRTCHCARDS</div>
+						<div>CASINO</div>
+						<div>JACKPOTS</div>
+						<div>RESULTS</div>
+					</div>
+				</section>
+				<section class="footertwo">
+					<h3>COSTOMER SUPPORT</h3>
+					<div class="two">
+						<p class="para">
+							Customer Experience Representatives are waiting to provide you with professional service via email between 11:00 IST and 22:00 IST. We will be happy to solve every query of yours!.
+						</p>
+					</div>
+				</section>
+				<section class="footerthree">
+					<h3>SITE POLICY</h3>
+					<div class="three">
+						<div>Terms and Condition</div>
+						<div>Bonus Term and Condition</div>
+						<div>Privacy Policy</div>
+						<div>How to Play</div>
+						<div>Site Map</div>
+						<div>About Us</div>
+						<div>FAQ</div>
+					</div>
+				</section>
+				<section class="footerfour">
+					<h3>CONTACT</h3>
+					<div class="logos">
+						<div class="logos2">
+							<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+							<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+							<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+						</div>
+					</div>
+					<p class="subs">Subscribe For more updates</p>
+					<input type="text" id="email" placeholder="Email">
+					<button class="btnfoot">Submit</button>
+				</section>
+			</div>
+		</footer>
+		<div class="name">This site is Hosted and Maintained By Deepak Gupta &copy;</div>
+	</div>
+	<script src="js/script.js"></script>
 </body>
 </html>

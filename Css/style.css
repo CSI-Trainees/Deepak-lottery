@@ -113,7 +113,8 @@ main{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center; 
+	text-align: center;
+	border-radius: 20px; 
 }
 .sections .secone .seconecontent h2{
 	color: #AF601A;
@@ -157,6 +158,7 @@ main{
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center; 
+	border-radius: 20px;
 }
 .sections .sectwo .sectwocontent h2{
 	color: #AF601A;
@@ -202,6 +204,7 @@ main{
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center; 
+	border-radius: 20px;
 
 }
 .sections .secthree .secthreecontent h2{
@@ -248,6 +251,7 @@ main{
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center; 
+	border-radius: 20px;
 }
 .sections .secfour .secfourcontent h2{
 	color: #AF601A;
@@ -271,4 +275,296 @@ main{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/************************************ROUND ONE OF GAME****************************************/
+
+.maingame{
+	width: 100%;
+	background-color:#FDEDEC ;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+
+.maingame h1{
+	text-align: center;
+	margin-top: 70px;
+	color: #760824;
+	font-family: 'Lobster', cursive;
+}
+
+/***********************************ROUND ONE***********************************/
+.maingame .gameone{
+	width: 900px;
+	height: 600px;
+	margin-top: 70px;
+	/*background-image: url(../img/brown3.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #760824 ;
+	border-radius: 20px;
+}
+.maingametwo .gameone h2{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 20px;
+}
+.maingame .gameone #note{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.maingame .gameone #number{
+	height: 300px;
+	width: 300px;
+	margin-left: 300px;
+	margin-top: 70px;
+	background-color: #FDEDEC;
+	color: #760824;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 250px;
+
+}
+.maingame .gameone button{
+	margin-left: 370px;
+	margin-top: 50px;
+	width: 150px;
+	height: 50px;
+	background-color: #FDEDEC;
+	color: #760824;
+	font-size: 24px;
+}
+.maingame .gameone button:hover{
+	background-color:#760824 ;
+	color: white;
+}
+
+
+/**********************************ROUND TWO****************************************/
+
+
+.maingame .gametwo{
+	width: 900px;
+	height: 600px;
+	margin-top: 100px;
+	/*background-image: url(../img/brown2.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #760824;
+	margin-bottom: 100px;
+	border-radius: 20px;
+}
+.gameroundtwo .h2{
+	text-align: center;
+	color: #FDEDEC;
+	position: relative;
+	top: 20px;
+}
+.gameroundtwo #notetwo{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.gameroundtwo .data{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.gameroundtwo .data h2{
+	text-align: center;
+	color: #FDEDEC;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.gameroundtwo .data #text{
+	height: 80px;
+	width: 150px;
+	font-size: 50px;
+	color: #760824;
+	background-color: #FDEDEC;
+}
+.gameroundtwo .data .submitvalue{
+	width: 200px;
+	height: 40px;
+	margin-top: 50px;
+	background-color:#FDEDEC ;
+	color: #760824;
+	font-size: 24px;
+}
+.gameroundtwo .data .submitvalue:hover{
+	background-color:#760824 ;
+	color: white;
+}
+
+
+/*****************************************footer************************************/
+
+footer{
+	width: 100%;
+	height: 70vh;
+	background-color: #212F3C;
+}
+footer .footer{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: center;
+
+}
+
+
+/***********footer 1****************/
+
+
+
+footer .footerone{
+	height: 320px;
+	width: 250px;
+	margin-left: 200px;
+	position: relative;
+	top: 100px;
+}
+footer .footerone h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerone .one{
+	font-size: 20px;
+	color: #AEB6BF ;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footerone .one div{
+	margin: 15px;
+}
+footer .footerone .one div:hover{
+	color: white;
+}
+
+/*************footer two ******************/
+
+
+footer .footertwo{
+	height: 320px;
+	width: 280px;
+	margin-left: 100px;
+	position: relative;
+	top: 100px;
+}
+footer .footertwo h3{
+	margin: 15px;
+	color:white;
+}
+footer .footertwo .two{
+	font-size: 20px;
+	color: #AEB6BF ;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footertwo .two p{
+	font-size: 20px;
+	line-height: 28px;
+}
+footer .footertwo .two p:hover{
+	color: white;
+}
+
+
+/****************footer three *****************/
+
+
+
+footer .footerthree{
+	height: 320px;
+	width: 280px;
+	margin-left: 100px;
+	position: relative;
+	top: 100px;
+}
+footer .footerthree h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerthree .three{
+	font-size: 20px;
+	color: #AEB6BF ;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footerthree .three div{
+	margin: 10px;
+}
+footer .footerthree .three div:hover{
+	color: white;
+}
+/*****************footer four******************/
+
+
+
+footer .footerfour{
+	height: 320px;
+	width: 250px;
+	/*background-color: green;*/
+	margin-left: 100px;
+	margin-right: 200px;
+	position: relative;
+	top: 100px;
+}
+footer .footerfour h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerfour .logos2{
+	margin: 10px;
+}
+footer .footerfour .logos2 a{
+	color:#AEB6BF;
+	margin: 5px; 
+}
+footer .footerfour .logos2 .fa:hover{
+	color: white;
+}
+footer .footerfour  .subs{
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+footer .footerfour #email{
+	height: 40px;
+	width: 90%;
+	font-size: 20px;
+}
+footer .footerfour .btnfoot{
+	width: 80px;
+	height: 30px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+footer .footerfour .btnfoot:hover{
+	background-color:#AEB6BF;
+}
+
+.name{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	background-color: #212F3C;
 }
