@@ -362,7 +362,7 @@ main{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #760824;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 	border-radius: 20px;
 }
 .gameroundtwo .h2{
@@ -387,8 +387,8 @@ main{
 .gameroundtwo .data h2{
 	text-align: center;
 	color: #FDEDEC;
-	margin-top: 50px;
-	margin-bottom: 40px;
+	margin-top: 15px;
+	margin-bottom: 30px;
 }
 .gameroundtwo .data #text{
 	height: 80px;
@@ -400,7 +400,7 @@ main{
 .gameroundtwo .data .submitvalue{
 	width: 200px;
 	height: 40px;
-	margin-top: 50px;
+	margin-top: 30px;
 	background-color:#FDEDEC ;
 	color: #760824;
 	font-size: 24px;
@@ -409,7 +409,101 @@ main{
 	background-color:#760824 ;
 	color: white;
 }
+.gameroundtwo .data #result{
+	width: 250px;
+	height: 200px;
+	margin-top: 30px;
+	background-color: #FDEDEC ;
+	display: none;
+	
+}
+.gameroundtwo .data #winner{
+	width: 250px;
+	height: 200px;
+	background-color: orangered;
+	display: none;
+}
+.gameroundtwo .data #loose{
+	width: 250px;
+	height: 200px;
+	display: none;
+}
+/******************************************Reviews************************************/
+.review{
+	background-color: #FDEDEC;
+	width: 100%;
+	height: auto;
+}
 
+.review .reviewhead{
+	width: 85%;
+	position: relative;
+	top: 50px;               /*********automatically*************/
+	height: 190px;
+	background-color:#760824;
+	color: white;
+	text-align: center;
+	font-style: oblique;
+	font-size: 70px;
+	background: rgb(61,3,18);
+	background: linear-gradient(90deg, rgba(61,3,18,1) 32%, rgba(118,8,36,1) 99%);
+}
+.review .reviewto .reviewheadtwo{
+	width: 5%;
+	height: 100px;
+	background-color: saddlebrown;
+}
+.review .reviewto .middelreview{
+	display: flex;
+	flex-direction: row;
+}
+.review .reviewone{
+	 width: 45%;
+	 height: 500px;
+	 margin-left: 70px;
+	 margin-right: 0px;
+	 background-color: #890C0C ;
+	 background: rgb(61,3,18);
+	background: linear-gradient(90deg, rgba(61,3,18,1) 8%, rgba(73,4,22,1) 13%, rgba(87,5,26,1) 97%, rgba(118,8,36,1) 100%);
+}
+ .review .reviewtwo{
+	width: 45%;
+	height: 500px;
+	margin-left:0;
+	background-color: #760824;
+	background: rgb(118,8,36);
+	background: linear-gradient(90deg, rgba(118,8,36,1) 0%, rgba(61,3,18,1) 5%, rgba(73,4,22,1) 94%, rgba(87,5,26,1) 96%);
+}
+.review .reviewto #slogan{
+	width: 95%;
+	height: 190px;
+	margin-left: 70px;
+	background-color: #25020b;
+	position: relative;
+	bottom: 100px;
+}
+.review #slogan h1{
+	color:white;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	top: 55px;
+	text-transform: capitalize;
+	margin: 50px;
+}
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color: white;
+}
+@keyframes changetext{
+	0%{content: "Safe";}
+	25%{content: "Secure";}
+	50%{content: "Amazing";}
+	75%{content: "Protected";}
+	100%{content: "Jackpot";}
+
+}
 
 /*****************************************footer************************************/
 
