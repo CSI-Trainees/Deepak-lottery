@@ -79,7 +79,8 @@ main{
 	text-align: center;
 }
 .maincontent .about{
-	margin-left: 350px;
+	margin-left: 26%;
+	margin-right: 25%;
 	margin-top: 30px;
 	width: 800px;
 	text-align: center;
@@ -123,7 +124,7 @@ main{
 }
 .sections .secone .seconecontent p{
 	color: white;
-	margin-top: 10px;
+	margin-top: 40px;
 	font-size: 21px;
 	text-align: center;
 }
@@ -281,7 +282,7 @@ main{
 
 .maingame{
 	width: 100%;
-	background-color:#FDEDEC ;
+	background-color:#FADBD8  ;
 	display: flex;
 	position: relative;
 	flex-direction: column;
@@ -329,23 +330,24 @@ main{
 	width: 300px;
 	margin-left: 300px;
 	margin-top: 70px;
-	background-color: #FDEDEC;
+	background-color: #FADBD8;
 	color: #760824;
 	border-radius: 50px;
 	text-align: center;
 	font-size: 250px;
 
 }
-.maingame .gameone button{
+.maingame #Enterbtn{
 	margin-left: 370px;
 	margin-top: 50px;
 	width: 150px;
+	display: block;
 	height: 50px;
-	background-color: #FDEDEC;
+	background-color: #FADBD8;
 	color: #760824;
 	font-size: 24px;
 }
-.maingame .gameone button:hover{
+.maingame .gameone #Enterbtn:hover{
 	background-color:#760824 ;
 	color: white;
 }
@@ -395,42 +397,43 @@ main{
 	width: 150px;
 	font-size: 50px;
 	color: #760824;
-	background-color: #FDEDEC;
+	background-color:#FADBD8;
 }
-.gameroundtwo .data .submitvalue{
+.gameroundtwo #submitvalue{
 	width: 200px;
 	height: 40px;
 	margin-top: 30px;
-	background-color:#FDEDEC ;
+	background-color:#FADBD8;
 	color: #760824;
 	font-size: 24px;
+	display: block;
 }
-.gameroundtwo .data .submitvalue:hover{
+.gameroundtwo  #submitvalue:hover{
 	background-color:#760824 ;
 	color: white;
 }
 .gameroundtwo .data #result{
-	width: 250px;
-	height: 200px;
+	width: 300px;
+	height: 250px;
 	margin-top: 30px;
-	background-color: #FDEDEC ;
+	background-color: #FADBD8; 
 	display: none;
 	
 }
 .gameroundtwo .data #winner{
-	width: 250px;
-	height: 200px;
+	width: 300px;
+	height: 250px;
 	background-color: orangered;
 	display: none;
 }
 .gameroundtwo .data #loose{
-	width: 250px;
-	height: 200px;
+	width: 300px;
+	height: 250px;
 	display: none;
 }
 /******************************************Reviews************************************/
 .review{
-	background-color: #FDEDEC;
+	background-color: #FADBD8;
 	width: 100%;
 	height: auto;
 }
@@ -444,7 +447,8 @@ main{
 	color: white;
 	text-align: center;
 	font-style: oblique;
-	font-size: 70px;
+	font-size: 80px;
+	padding-top: 50px;
 	background: rgb(61,3,18);
 	background: linear-gradient(90deg, rgba(61,3,18,1) 32%, rgba(118,8,36,1) 99%);
 }
@@ -462,9 +466,22 @@ main{
 	 height: 500px;
 	 margin-left: 70px;
 	 margin-right: 0px;
+	 text-align: center;
 	 background-color: #890C0C ;
 	 background: rgb(61,3,18);
 	background: linear-gradient(90deg, rgba(61,3,18,1) 8%, rgba(73,4,22,1) 13%, rgba(87,5,26,1) 97%, rgba(118,8,36,1) 100%);
+}
+.review .reviewone .rone{
+	margin-top: 140px;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+.review .reviewone .reone{
+	font-size: 25px;
+	color: white;
+	margin-left: 70%;
+	margin-top: 20px;
 }
  .review .reviewtwo{
 	width: 45%;
@@ -473,6 +490,19 @@ main{
 	background-color: #760824;
 	background: rgb(118,8,36);
 	background: linear-gradient(90deg, rgba(118,8,36,1) 0%, rgba(61,3,18,1) 5%, rgba(73,4,22,1) 94%, rgba(87,5,26,1) 96%);
+}
+.review .reviewtwo .rtwo{
+	margin-top: 120px;
+	font-size: 40px;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+.review .reviewtwo .retwo{
+	font-size: 25px;
+	color: white;
+	margin-left: 70%;
+	margin-top: 20px;
 }
 .review .reviewto #slogan{
 	width: 95%;
@@ -484,7 +514,7 @@ main{
 }
 .review #slogan h1{
 	color:white;
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	position: relative;
 	top: 55px;
@@ -528,7 +558,7 @@ footer .footer{
 footer .footerone{
 	height: 320px;
 	width: 250px;
-	margin-left: 200px;
+	margin-left: 150px;
 	position: relative;
 	top: 100px;
 }
@@ -554,8 +584,8 @@ footer .footerone .one div:hover{
 
 footer .footertwo{
 	height: 320px;
-	width: 280px;
-	margin-left: 100px;
+	width: 320px;
+	margin-left: 80px;
 	position: relative;
 	top: 100px;
 }
@@ -584,7 +614,7 @@ footer .footertwo .two p:hover{
 
 footer .footerthree{
 	height: 320px;
-	width: 280px;
+	width: 300px;
 	margin-left: 100px;
 	position: relative;
 	top: 100px;
@@ -611,10 +641,10 @@ footer .footerthree .three div:hover{
 
 footer .footerfour{
 	height: 320px;
-	width: 250px;
+	width: 320px;
 	/*background-color: green;*/
 	margin-left: 100px;
-	margin-right: 200px;
+	margin-right: 180px;
 	position: relative;
 	top: 100px;
 }
